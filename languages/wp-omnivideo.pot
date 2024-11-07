@@ -1,0 +1,542 @@
+# Copyright (C) 2021 Wpshop
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OmniVideo\n"
+"POT-Creation-Date: 2024-09-19 14:52+0300\n"
+"PO-Revision-Date: 2021-03-13 23:03+0300\n"
+"Last-Translator: \n"
+"Language-Team: WPShop.ru <support@wpshop.biz>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: wp-omnivideo\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx;esc_html__;"
+"esc_html_e;esc_html_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: vendor/wpshop\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: vendor/wpshop/wpshop-settings/template-"
+"parts\n"
+"X-Poedit-SearchPathExcluded-4: blocks/node_modules\n"
+"X-Poedit-SearchPathExcluded-5: blocks/build\n"
+
+#: _i18n.php:3
+msgid ""
+"A versatile plugin to embed multiple video sources in WordPress posts."
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:18
+msgid "Loading OmniVideo preview..."
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:22
+msgid "Unable to loading OmniVideo preview"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:25
+msgid "An error occurred while loading OmniVideo preview"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:55
+msgid "Platforms"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:57 blocks/src/omnivideo/edit.js:113
+#: blocks/src/omnivideo/edit.js:186
+msgid "Youtube"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:62
+msgid "Vk"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:67 blocks/src/omnivideo/edit.js:115
+#: blocks/src/omnivideo/edit.js:188
+#: template-parts/admin/settings/tab-settings.php:68
+msgid "Dzen"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:70 blocks/src/omnivideo/edit.js:98
+msgid "Where do I get it?"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:71 blocks/src/omnivideo/edit.js:99
+msgid "Embed link."
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:75 blocks/src/omnivideo/edit.js:116
+#: blocks/src/omnivideo/edit.js:189
+#: template-parts/admin/settings/tab-settings.php:69
+msgid "Rutube"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:80 blocks/src/omnivideo/edit.js:117
+#: blocks/src/omnivideo/edit.js:190
+#: template-parts/admin/settings/tab-settings.php:70
+msgid "mp4"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:85 blocks/src/omnivideo/edit.js:118
+#: blocks/src/omnivideo/edit.js:191
+#: template-parts/admin/settings/tab-settings.php:71
+msgid "Vimeo"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:90 blocks/src/omnivideo/edit.js:119
+#: blocks/src/omnivideo/edit.js:192
+#: template-parts/admin/settings/tab-settings.php:72
+msgid "OK"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:95 blocks/src/omnivideo/edit.js:193
+#: template-parts/admin/settings/tab-settings.php:73
+msgid "Mail.ru"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:103 blocks/src/omnivideo/edit.js:120
+#: blocks/src/omnivideo/edit.js:194
+#: template-parts/admin/settings/tab-settings.php:74
+msgid "Kinescope"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:109
+msgid "Default Platform"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:114 blocks/src/omnivideo/edit.js:187
+#: template-parts/admin/settings/tab-settings.php:67
+msgid "VK"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:123
+msgid ""
+"The default platform that will be loaded when the page is opened. But "
+"if a poster is specified, the loading will be on click."
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:126
+msgid "Platform Order"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:128 blocks/src/omnivideo/edit.js:143
+#: blocks/src/omnivideo/edit.js:159 blocks/src/omnivideo/edit.js:165
+#: blocks/src/omnivideo/edit.js:180 blocks/src/omnivideo/edit.js:202
+#: blocks/src/omnivideo/edit.js:212 blocks/src/omnivideo/edit.js:222
+#: blocks/src/omnivideo/edit.js:232
+msgid "default from settings"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:130
+#: template-parts/admin/settings/tab-settings.php:84
+msgid "Comma separated values"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:130
+#: template-parts/admin/settings/tab-settings.php:84
+msgid "List of available platforms:"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:133 src/Admin/Settings.php:110
+#: src/functions.php:85
+msgid "Settings"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:135
+msgid "Title"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:140
+#: template-parts/admin/settings/tab-settings.php:28
+msgid "Title Tag"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:144
+msgid "div"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:145
+msgid "h1"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:146
+msgid "h2"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:147
+msgid "h3"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:152
+#: template-parts/admin/settings/tab-settings.php:39
+msgid "Poster"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:156
+#: template-parts/admin/settings/tab-settings.php:41
+msgid ""
+"Video Cover. You can specify a full link to the image that will be "
+"displayed instead of the video."
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:157
+msgid ""
+"You can also specify \"auto\" to automatically download the cover art "
+"from the platform (works if YouTube or Vimeo links are specified)."
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:162
+#: template-parts/admin/settings/tab-settings.php:47
+msgid "Style"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:166
+#: template-parts/admin/settings/tab-settings.php:48
+msgid "Standard (standard)"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:167
+#: template-parts/admin/settings/tab-settings.php:49
+msgid "Simple (simple)"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:168
+#: template-parts/admin/settings/tab-settings.php:50
+msgid "Simple 2 (simple-2)"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:169
+#: template-parts/admin/settings/tab-settings.php:51
+msgid "Simple 3 (simple-3)"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:170
+#: template-parts/admin/settings/tab-settings.php:52
+msgid "Cover (cover)"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:171
+#: template-parts/admin/settings/tab-settings.php:53
+msgid "Sunset (sunset)"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:172
+#: template-parts/admin/settings/tab-settings.php:54
+msgid "Pills (pills)"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:177
+#: template-parts/admin/settings/tab-settings.php:60
+msgid "Icon"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:181
+#: template-parts/admin/settings/tab-settings.php:61
+msgid "Without Icon"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:182
+#: template-parts/admin/settings/tab-settings.php:62
+msgid "Play"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:183
+#: template-parts/admin/settings/tab-settings.php:63
+msgid "Play 2"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:184
+#: template-parts/admin/settings/tab-settings.php:64
+msgid "Play 3"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:185
+#: template-parts/admin/settings/tab-settings.php:65
+msgid "Play 4"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:199
+#: template-parts/admin/settings/tab-settings.php:89
+msgid "Show Titles"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:203 blocks/src/omnivideo/edit.js:213
+#: blocks/src/omnivideo/edit.js:223 blocks/src/omnivideo/edit.js:233
+msgid "Yes"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:204 blocks/src/omnivideo/edit.js:214
+#: blocks/src/omnivideo/edit.js:224 blocks/src/omnivideo/edit.js:234
+msgid "No"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:209
+#: template-parts/admin/settings/tab-settings.php:93
+msgid "Show Icons"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:219
+msgid "Show Partner"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:229
+msgid "Use Pseudo Link"
+msgstr ""
+
+#: blocks/src/omnivideo/edit.js:245
+msgid "Video Description"
+msgstr ""
+
+#: src/Admin/Settings.php:88
+msgid "OmniVideo Options"
+msgstr ""
+
+#: src/Admin/Settings.php:89
+msgid "OmniVideo"
+msgstr ""
+
+#: src/Admin/Settings.php:103
+msgid "The block is displayed using the {{link}} plugin"
+msgstr ""
+
+#: src/Blocks.php:50
+msgid "Output video from different platforms in one block."
+msgstr ""
+
+#: template-parts/admin/settings.php:58
+msgid "Sorry, you are not allowed to perform actions on this section."
+msgstr ""
+
+#: template-parts/admin/settings.php:68
+msgid "Our Pages:"
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard-activate.php:20
+#: template-parts/admin/settings/tab-dashboard.php:59
+msgid "License"
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard-activate.php:21
+#, php-format
+msgid ""
+"To activate the plugin, enter the license key that you receive after "
+"payment in the letter or in <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">personal account</a>."
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:26
+msgid "The plugin is successfully installed and ready to work!"
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:28
+msgid "This page contains the general settings of the plugin."
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:41
+msgid "Documentation"
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:42
+msgid ""
+"If you have a question about our product, perhaps the answer is already "
+"in our documentation."
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:52
+msgid "Questions and answers"
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:53
+msgid ""
+"Section of frequently asked questions and answers to them. You can "
+"quickly find the answer to a question."
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:66
+msgid "The license is successfully activated."
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:68
+msgid "The license key is hidden for security purposes."
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:71
+msgid "Personal account"
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:73
+msgid "Are you sure you want to remove the license key?"
+msgstr ""
+
+#: template-parts/admin/settings/tab-dashboard.php:73
+msgid "Remove License"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:42
+msgid ""
+"You can also specify <code>auto</code> to automatically download the "
+"cover art from the platform (works if the shortcode has YouTube or "
+"Vimeo links specified)."
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:66
+msgid "Youtube "
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:82
+msgid "Order"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:99
+msgid "Use Pseudo Links"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:101
+msgid ""
+"Replaces links to video platforms with &lt;span&gt; pseudo elements. "
+"This is useful if you don't want external links to video platforms on "
+"your page."
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:107
+msgid "Auto Replace"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:107
+msgid ""
+"Once the setting is activated, all previously inserted YouTube links "
+"will start working through the OmniVideo block. By default, WordPress "
+"embeds all videos via iframe. To avoid unnecessary external requests "
+"and problems with platform inaccessibility, you can replace all videos "
+"embedded in your content with OmniVideo blocks."
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:111
+#: template-parts/admin/settings/tab-settings.php:131
+msgid "Enable"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:117
+msgid "Shortcode Params"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:119
+msgid ""
+"The parameters set here are applied as shortcode parameters when auto-"
+"replacing embedded video."
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:125
+msgid "Partner Program"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:126
+msgid ""
+"You can enable the output of a small affiliate pseudo link to the "
+"OmniVideo plugin after the block. You get up to 25% royalties from each "
+"sale. This is not a real link, it doesn't take up page weight and is "
+"closed from indexing."
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:135
+msgid "Text"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:139
+msgid "Additional Settings"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:145
+msgid "Clear database on the plugin deleting"
+msgstr ""
+
+#: template-parts/admin/settings/tab-settings.php:147
+msgid "All data related to the plugin will be deleted from the database."
+msgstr ""
+
+#: vendor/wpshop/wpshop-settings/src/AbstractSettings.php:167
+msgid ""
+"Sorry, you are not allowed to modify unregistered settings for this "
+"site."
+msgstr ""
+
+#: vendor/wpshop/wpshop-settings/src/AbstractSettings.php:210
+#: vendor/wpshop/wpshop-settings/src/AbstractSettings.php:214
+msgid "Dashboard"
+msgstr ""
+
+#: vendor/wpshop/wpshop-settings/src/AbstractSettings.php:253
+msgid "You are not allowed to remove the license"
+msgstr ""
+
+#: vendor/wpshop/wpshop-settings/src/Maintenance.php:89
+#: vendor/wpshop/wpshop-settings/src/Maintenance.php:92
+#: vendor/wpshop/wpshop-settings/src/Maintenance.php:140
+msgid "Unable to check license without activation url"
+msgstr ""
+
+#: vendor/wpshop/wpshop-settings/src/Maintenance.php:117
+#: vendor/wpshop/wpshop-settings/src/Maintenance.php:120
+msgid "Can't get response from license server"
+msgstr ""
+
+#: vendor/wpshop/wpshop-settings/src/SettingsRenderer.php:35
+msgid "Activate"
+msgstr ""
+
+#: vendor/wpshop/wpshop-settings/src/SettingsRenderer.php:445
+msgid "Save"
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:214
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:216
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:218
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:224
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Vcs/PluginUpdateChecker.php:100
+msgid "There is no changelog available."
+msgstr ""

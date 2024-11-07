@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpshop/omnivideo",
+  "version": "1.0.0",
+  "title": "OmniVideo",
+  "category": "media",
+  "icon": "youtube",
+  "example": {},
+  "textdomain": "wp-omnivideo",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
